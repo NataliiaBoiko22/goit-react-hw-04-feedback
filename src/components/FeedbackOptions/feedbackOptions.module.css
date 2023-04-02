@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+}
+
+.list {
+  margin-left: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: rgba(153, 170, 219, 0.133);
+  border-radius: 5px;
+  border: 1px solid rgb(37, 37, 37);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.button:hover,
+.button:focus {
+  background: rgba(34, 23, 23, 0.133);
+}
