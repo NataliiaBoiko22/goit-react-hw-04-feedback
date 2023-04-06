@@ -34,7 +34,7 @@ return (
 <FeedbackOptions options={{ good, neutral, bad }} onLeaveFeedback={handleClickButton} />
 </Section>
 <Section title="Statistics">
-{total ? ( console.log("hhhh"),
+{total ?
 <Statistics
          good={good}
          neutral={neutral}
@@ -42,7 +42,7 @@ return (
          total={total}
          positivePercentage={positivePercentage}
        />
-) : (
+ : (
 <Notification message="There is no feedback" />
 )}
 </Section>
